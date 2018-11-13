@@ -1,3 +1,12 @@
 .left-eye {
   animation: left-eye 3s infinite;
 }
+
+.left-ear {
+  transition: all .5s linear;
+}
+
+.right-ear {
+  transition: all .5s linear;
+}
+
