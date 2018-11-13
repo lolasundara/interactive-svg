@@ -17,3 +17,32 @@
 .bear:hover .right-ear {
   transform: translateY(-10px);
 }
+
+@keyframes left-eye {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
+}
+
+.right-eye {
+  animation: right-eye 3s infinite;
+}
+
+@keyframes right-eye {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
